@@ -55,31 +55,31 @@ body {
     padding: 10px;
 }
 
-.aboutMe {
+.Article {
     display: grid;
     min-height: 400px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 20% 1fr 1fr;
     grid-template-areas: 
     "amHeading amContent amContent";
 }
-#amHeading {
+.Heading {
     grid-area: amHeading;
     border-right: solid red;
     border-right-width: thick;
     padding-top: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
     
 }
 
-#amHeading h3 {
+.Heading h3 {
     margin-right: 10px;
     font-size: 2.5em;
 }
 
 
-#amContent {
+.Content {
     grid-area: amContent;
     padding-top: 10px;
     margin-top: 10px;
