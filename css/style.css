@@ -101,3 +101,71 @@ body {
   
 }
 
+#wContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas:
+    "luxuryWatch luxuryWatch"
+    "luxuryWatch luxuryWatch"
+    "htmlCssGit simpleBio"
+    "javaScript Calculator";
+}
+
+#luxurywatch {
+    grid-area: luxuryWatch;
+    background-image: url("../images/luxurywatchscreenshot.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+
+
+
+
+#htmlcssgit {
+    grid-area: htmlCssGit;
+    background-image: url("../images/htmlcssgitscreenshot.png");
+    background-size: cover;
+}
+
+#htmlcssgit a {
+    display: flex;
+    height: 333.273px;
+}
+
+
+#simplebio {
+    grid-area: simpleBio;
+    background-image: url("../images/simplebioscreenshot.png");
+    background-size: cover;
+}
+
+#javascript {
+    grid-area: javaScript;
+    background-image: url("../images/javascriptBI.jpg");
+    background-size: cover;
+}
+
+#calculator {
+    grid-area: Calculator;
+    background-image: url("../images/calculatorBI.jpg");
+    background-size: cover;
+}
+
+.projects {
+    margin: 15px;
+    border: solid red;
+    border-width: 0.1cm;
+    text-decoration: none;
+
+    
+}
+
+.projects h4, h5 {
+    background-color: rgb(246, 6, 6, 0.8);
+    margin: -1px;
+    
+}
