@@ -52,8 +52,13 @@ body {
     align-items: flex-end;
 }
 .image h2 {
-    color: aliceblue;
-    padding: 10px;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: xx-large;
+    
 }
 
 .Article {
@@ -164,6 +169,10 @@ body {
     
 }
 
+#contact-me {
+    margin-bottom: 20px;
+}
+
 #cmContent {
     margin-top: 20px;
     display: grid;
@@ -199,7 +208,7 @@ body {
 
 footer {
     padding: 15px;
-    background-color: red;
+    background-color: rgb(147, 43, 43);
     text-align: center;
     color: white;
 }
