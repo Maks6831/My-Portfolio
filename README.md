@@ -4,7 +4,7 @@
 
 The purpose of the project was to design a website which act as a portfolio for prospective clients to view. This was done in order to showcase the skills learnt during the participation of the bootcamp. There is a short bio followed by a work section which consists of an image grid which contain links to deployed websites created by myself. When one clicks on the image of the project the end user is taken to the webpage of said project. The My Portfolio project uses a plethora of styles in order to make it asthetic and user friendly. Examples of these are flexbox, grid, media queries etc.  
 
-### Screenshots
+### Screenshot
 
 ![maks6831 github io_My-Portfolio_](https://user-images.githubusercontent.com/118021969/208514201-88353e64-7bf7-47f8-9877-550550c57b5b.png)
 
@@ -14,7 +14,7 @@ https://maks6831.github.io/My-Portfolio/
 
 ### Credits
 
-Credits got to Muhammad Ali Khan
+Credits go to Muhammad Ali Khan
 
 ### License
 
