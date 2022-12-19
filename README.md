@@ -6,6 +6,7 @@ The purpose of the project was to design a website which act as a portfolio for 
 
 ### Screenshots
 
+![maks6831 github io_My-Portfolio_](https://user-images.githubusercontent.com/118021969/208514201-88353e64-7bf7-47f8-9877-550550c57b5b.png)
 
 ### link
 
