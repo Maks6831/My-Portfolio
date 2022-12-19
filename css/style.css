@@ -213,3 +213,38 @@ footer {
     text-align: center;
     color: white;
 }
+
+@media only screen and (max-width: 666px) {
+    #navigation {
+        display: none;
+    }
+    .Article {
+        display: grid;
+        min-height: 400px;
+        width: 100%;
+        text-align: center;
+        grid-template-rows: 100px 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "amHeading"
+        "amContent"
+        "amContent";
+    }
+
+    .Heading {
+        max-height: 100px;
+    }
+ 
+@media only screen and (max-width: 533px) {
+    #wContent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px;
+        grid-template-areas:
+        "luxuryWatch"
+        "luxuryWatch"
+        "htmlCssGit" 
+        "simpleBio"
+        "javaScript" 
+        "Calculator";
+}
