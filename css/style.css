@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    background-color: white;
+    background-color: beige;
 }
 
 .header {
@@ -87,7 +88,7 @@ body {
 
 #amContent p {
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     border: 1cm;
 }
 
@@ -115,44 +116,33 @@ body {
 #luxurywatch {
     grid-area: luxuryWatch;
     background-image: url("../images/luxurywatchscreenshot.png");
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-   
+    
+    
 }
-
-
-
-
 
 #htmlcssgit {
     grid-area: htmlCssGit;
     background-image: url("../images/htmlcssgitscreenshot.png");
-    background-size: cover;
+    
 }
 
-#htmlcssgit a {
-    display: flex;
-    height: 333.273px;
-}
 
 
 #simplebio {
     grid-area: simpleBio;
     background-image: url("../images/simplebioscreenshot.png");
-    background-size: cover;
+    
 }
 
 #javascript {
     grid-area: javaScript;
     background-image: url("../images/javascriptBI.jpg");
-    background-size: cover;
+    
 }
 
 #calculator {
     grid-area: Calculator;
     background-image: url("../images/calculatorBI.jpg");
-    background-size: cover;
 }
 
 .projects {
@@ -160,12 +150,56 @@ body {
     border: solid red;
     border-width: 0.1cm;
     text-decoration: none;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
 
+.sectionTag {
+    background-color: rgb(246, 6, 6, 0.8);
+    margin: -1px;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
     
 }
 
-.projects h4, h5 {
-    background-color: rgb(246, 6, 6, 0.8);
-    margin: -1px;
-    
+#cmContent {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "mobilephone"
+    "email"
+    "linkedin"
+    "github";
+}
+
+#mobilephone {
+    grid-area: mobilephone;
+}
+
+#email {
+    grid-area: email;
+}
+
+#linkedin {
+    grid-area: linkedin;
+}
+
+#github {
+    grid-area: github;
+}
+
+.details {
+    text-align: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+footer {
+    padding: 15px;
+    background-color: red;
+    text-align: center;
+    color: white;
 }
