@@ -9,6 +9,8 @@ The purpose of the project was to design a website which act as a portfolio for 
 
 ### link
 
+https://maks6831.github.io/My-Portfolio/
+
 ### Credits
 
 Credits got to Muhammad Ali Khan
