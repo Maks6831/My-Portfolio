@@ -8,7 +8,7 @@
 body {
     background-color: beige;
 }
-
+/* Header section below*/
 .header {
     padding: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -42,6 +42,10 @@ body {
     text-decoration: none;
 }
 
+/* End of header Section */
+
+/* Styling of image and image header below */
+
 .image {
     width:100%;
     height: 150px;
@@ -62,6 +66,8 @@ body {
     
 }
 
+
+/* main section below */
 .Article {
     display: grid;
     min-height: 400px;
@@ -207,6 +213,10 @@ body {
     font-size: larger;
 }
 
+/* end of main section */
+
+/* footer section below */
+
 footer {
     padding: 15px;
     background-color: rgb(147, 43, 43);
@@ -214,11 +224,17 @@ footer {
     color: white;
 }
 
-@media only screen and (max-width: 666px) {
+/* End of footer section */
+
+/* media queries */
+
+@media only screen and (max-width: 892px) {
     #navigation {
+        /* gets rid of navigation bar */
         display: none;
     }
     .Article {
+        /* makes contact me grid more user friend on smaller screens */
         display: grid;
         min-height: 400px;
         width: 100%;
@@ -237,6 +253,7 @@ footer {
  
 @media only screen and (max-width: 533px) {
     #wContent {
+        /* changes work grid to fit more nicely into mobile */
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 200px 200px 200px 200px 200px 200px;
